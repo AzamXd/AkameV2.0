@@ -1,6 +1,6 @@
 /**
  * Base By Dika Ardnt.
- * Recode By GuaAbuzz
+ * Recode By thisiszam
  * Kalau Mau Recode, Edit Aja Di confiq.js
  * Mumpung Lagi Baik Ini Gua Share No Enc Buat Kalian
  * Contact Me On wa.me/6289636827082
@@ -120,7 +120,7 @@ module.exports = hisoka = async (hisoka, m, chatUpdate, store) => {
             var ucapanWaktu = '𝑺𝒆𝒍𝒂𝒎𝒂𝒕 𝑻𝒆𝒏𝒈𝒂𝒉 𝑴𝒂𝒍𝒂𝒎 🌃'
         }
 
-        //Time Menuju Ulang Tahun Untuk GuaAbuzz :)
+        //Time Menuju Ulang Tahun Untuk thisiszam :)
         const HBD = new Date('July 17, 2023 06:00:00').getTime();
         const sekarang = new Date().getTime();
         const Selisih = HBD - sekarang;
@@ -143,10 +143,10 @@ module.exports = hisoka = async (hisoka, m, chatUpdate, store) => {
                 orderMessage: {
                     itemCount: 2022,
                     status: 200,
-                    thumbnail: fs.readFileSync('./image/hisoka.jpg'),
+                    thumbnail: fs.readFileSync('./image/Elemen Baru 67 [4884344].png'),
                     surface: 200,
                     message: `Haii Kak ${pushname}\n𝙲𝚖𝚍 ${command}`,
-                    orderTitle: 'Please Follow TikTok @GuaAbuzz',
+                    orderTitle: 'Please Follow TikTok @thisiszam',
                     sellerJid: '0@s.whatsapp.net'
                 }
             },
@@ -164,7 +164,7 @@ module.exports = hisoka = async (hisoka, m, chatUpdate, store) => {
 	        message: {
 	            documentMessage: {
 	                title: `*${command}*`,
-	                thumbnail: fs.readFileSync('./image/hisoka.jpg'),
+	                thumbnail: fs.readFileSync('./image/Elemen Baru 67 [4884344].png'),
 	                }
 	            }
 	        }
@@ -180,8 +180,8 @@ module.exports = hisoka = async (hisoka, m, chatUpdate, store) => {
 	            groupJid: '6289636827082-1635036556@g.us',
 	            inviteCode: 'https://chat.whatsapp.com/FGmVjFYJBjjGst62qwNKJB',
 	            groupName: 'Akame Bot',
-	            caption: '© GuaAbuzz',
-	            thumbnail: fs.readFileSync('./image/hisoka.jpg'),
+	            caption: '© thisiszam',
+	            thumbnail: fs.readFileSync('./image/Elemen Baru 67 [4884344].png'),
 	            }
 	        }
 	    }
@@ -1037,7 +1037,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
 ⭔ Ortu Saya.
 ⭔ DikaArdnt (Author).
 ⭔ Sanzy YT.
-⭔ GuaAbuzz (Recode).
+⭔ thisiszam (Recode).
 ⭔ Fatih A.
 ⭔ Nurutomo.
 ⭔ Mhankbarbar.
@@ -1151,7 +1151,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                 ]
                 }
                 ]
-                hisoka.sendListMsg(m.chat, `┌────────┈❖\n│「 Hi, ${pushname}👋 」\n│「 ${ucapanWaktu} 」\n└┬─────────────┈❖\n┌┤「 INFO USER 」\n│└─────────────┈❖\n│ Name : ${pushname}\n│ Number : ${m.sender.split('@')[0]}\n│ Status : ${isCreator ? 'Owner' : 'User'}\n│ User : ${Object.keys(global.db.data.users).length}\n└┬─────────────┈❖\n┌┤「 INFO BOT 」\n│└─────────────┈❖\n│ Prefix : ( ${prefix} )\n│ Name : ${global.namabot}\n│ Owner : ${global.namaowner}\n│ Mode : ${hisoka.public ? 'Public' : 'Self'}\n│ Platform : ${os.platform()}\n│ Runtime :\n│  ${runtime(process.uptime())}\n│ Language : Javascript\n│ Lib : Baileys-md\n└┬─────────────┈❖\n┌┤「 INFO TIME 」\n│└─────────────┈❖\n│ Tanggal Server : ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}\n│ Waktu Server : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}\n│ Menuju HBD GuaAbuzz :\n│  ${menuju}\n│ WIB : ${wib}\n│ WITA : ${wita}\n│ WIT : ${wit}\n└──────────────┈❖`, hisoka.user.name, `Hello Everyone !`, `Click Here`, sections, fgclink)
+                hisoka.sendListMsg(m.chat, `┌────────┈❖\n│「 Hi, ${pushname}👋 」\n│「 ${ucapanWaktu} 」\n└┬─────────────┈❖\n┌┤「 INFO USER 」\n│└─────────────┈❖\n│ Name : ${pushname}\n│ Number : ${m.sender.split('@')[0]}\n│ Status : ${isCreator ? 'Owner' : 'User'}\n│ User : ${Object.keys(global.db.data.users).length}\n└┬─────────────┈❖\n┌┤「 INFO BOT 」\n│└─────────────┈❖\n│ Prefix : ( ${prefix} )\n│ Name : ${global.namabot}\n│ Owner : ${global.namaowner}\n│ Mode : ${hisoka.public ? 'Public' : 'Self'}\n│ Platform : ${os.platform()}\n│ Runtime :\n│  ${runtime(process.uptime())}\n│ Language : Javascript\n│ Lib : Baileys-md\n└┬─────────────┈❖\n┌┤「 INFO TIME 」\n│└─────────────┈❖\n│ Tanggal Server : ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}\n│ Waktu Server : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}\n│ Menuju HBD thisiszam :\n│  ${menuju}\n│ WIB : ${wib}\n│ WITA : ${wita}\n│ WIT : ${wit}\n└──────────────┈❖`, hisoka.user.name, `Hello Everyone !`, `Click Here`, sections, fgclink)
             }
             break
             case 'sc':
@@ -1161,7 +1161,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
 📚 *Base : Dika Ardnt* 
 ⌲ https://github.com/DikaArdnt/Hisoka-Morou
 
-🌱 *Recode By : GuaAbuzz*
+🌱 *Recode By : thisiszam*
 ⎙ https://github.com/Abuzzpoet/AkameV2.0`
                 let btn = [{
                     urlButton: {
@@ -1293,7 +1293,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                 break
             case 'gantengcek':
             case 'cekganteng': {
-                if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} GuaAbuzz`)
+                if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} thisiszam`)
                 const gan = ['10% banyak" perawatan ya bang:v\nCanda Perawatan:v','30% Semangat bang Merawat Dirinya><','20% Semangat Ya bang👍','40% Wahh bang><','50% abang Ganteng deh><','60% Hai Ganteng🐊','70% Hai Ganteng🐊','62% Bang Ganteng><','74% abang ni ganteng deh><','83% Love You abang><','97% Assalamualaikum Ganteng🐊','100% Bang Pake Susuk ya??:v','29% Semangat Bang:)','94% Hai Ganteng><','75% Hai Bang Ganteng','82% wihh abang Pasti Sering Perawatan kan??','41% Semangat:)','39% Lebih Semangat🐊']
                 const teng = gan[Math.floor(Math.random() * gan.length)]
                 hisoka.sendMessage(m.chat, {
@@ -4238,7 +4238,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                     { buttonId: `menfesconfirm ${m.sender}`, buttonText: { displayText: '⌲ Terima Menfess' }, type: 1 },
                     { buttonId: `menfess`, buttonText: { displayText: '⌲ Kirim Menfess' }, type: 1 }
                 ]
-			hisoka.sendMessage(`${nomor}@s.whatsapp.net`, { text:`PESAN RAHASIA\n\nHai kak ada Menfess nih!!\n─────────────\n*Akame-Bot*\n─────────────\n\nDari : _${saking}_ \nPesan : _${pesan}_`, title: 'PESAN RAHASIA DECTETED', footer: 'Ciee ada yang ngirim pesan nih\n© 2022 GuaAbuzz', buttons: buttons, headerType: 5 })
+			hisoka.sendMessage(`${nomor}@s.whatsapp.net`, { text:`PESAN RAHASIA\n\nHai kak ada Menfess nih!!\n─────────────\n*Akame-Bot*\n─────────────\n\nDari : _${saking}_ \nPesan : _${pesan}_`, title: 'PESAN RAHASIA DECTETED', footer: 'Ciee ada yang ngirim pesan nih\n© 2022 thisiszam', buttons: buttons, headerType: 5 })
 				m.reply(`Sukses Mengirim Menfess!!`)
 				}
 				break
@@ -5112,7 +5112,7 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
             break
             //Jangan Dihapus Tar Eror Banh
             case 'owner': case 'creator': {
-                const _0x403925=_0x4286;(function(_0x59ae04,_0x1c8bd5){const _0x5e3f49=_0x4286,_0x4ad1ad=_0x59ae04();while(!![]){try{const _0x30c1d6=parseInt(_0x5e3f49(0x1bc))/0x1+parseInt(_0x5e3f49(0x1b8))/0x2*(parseInt(_0x5e3f49(0x1bb))/0x3)+-parseInt(_0x5e3f49(0x1ad))/0x4*(parseInt(_0x5e3f49(0x1a8))/0x5)+parseInt(_0x5e3f49(0x1ae))/0x6*(-parseInt(_0x5e3f49(0x1b1))/0x7)+parseInt(_0x5e3f49(0x1b2))/0x8*(parseInt(_0x5e3f49(0x1c1))/0x9)+-parseInt(_0x5e3f49(0x1c4))/0xa*(parseInt(_0x5e3f49(0x1ab))/0xb)+-parseInt(_0x5e3f49(0x1b4))/0xc*(-parseInt(_0x5e3f49(0x1b7))/0xd);if(_0x30c1d6===_0x1c8bd5)break;else _0x4ad1ad['push'](_0x4ad1ad['shift']());}catch(_0x5e01ed){_0x4ad1ad['push'](_0x4ad1ad['shift']());}}}(_0xfff5,0x91dc4));let vcard=_0x403925(0x1bf)+_0x403925(0x1be)+_0x403925(0x1b5)+_0x403925(0x1ba)+_0x403925(0x1a9)+_0x403925(0x1b9)+_0x403925(0x1b3)+_0x403925(0x1bd)+_0x403925(0x1c3)+_0x403925(0x1ac)+_0x403925(0x1aa)+_0x403925(0x1af)+'item4.X-ABLabel:Region\x0a'+_0x403925(0x1b0);hisoka[_0x403925(0x1b6)](m[_0x403925(0x1c0)],{'contacts':{'displayName':'GuaAbuzz','contacts':[{'vcard':vcard}]}},{'quoted':fgclink}),hisoka[_0x403925(0x1c2)](m[_0x403925(0x1c0)],global['owner'],fgclink);function _0x4286(_0x332d22,_0x23125e){const _0xfff55f=_0xfff5();return _0x4286=function(_0x428683,_0x1be391){_0x428683=_0x428683-0x1a8;let _0x107581=_0xfff55f[_0x428683];return _0x107581;},_0x4286(_0x332d22,_0x23125e);}function _0xfff5(){const _0x472d86=['ORG:GuaAbuzz;\x0a','item3.X-ABLabel:TikTok\x0a','9277939QECbrO','item3.URL:https://tiktok.com/@guaabuzz\x0a','4lAizbE','1738782kjtmOo','item4.ADR:;;Jepang;;;;\x0a','END:VCARD','21IDjbOI','64FVScMT','item1.X-ABLabel:Creator\x20Akame\x20-\x20MD\x0a','5812956ArBIuX','N:;GuaAbuzz;;;','sendMessage','39aOEvla','408RnjjAM','item1.TEL;type=CELL;type=VOICE;waid=6289636827082:+62\x20896-3682-7082\x0a','FN:GuaAbuzz\x0a','30fCfMkg','867846AnoCDH','item2.EMAIL;type=INTERNET:rajifarmansyah46@gmail.com\x0a','VERSION:3.0\x0a','BEGIN:VCARD\x0a','chat','47079doYJhu','sendContact','item2.X-ABLabel:Email\x0a','10RjJMlg','273445fdKsrP'];_0xfff5=function(){return _0x472d86;};return _0xfff5();}
+                const _0x403925=_0x4286;(function(_0x59ae04,_0x1c8bd5){const _0x5e3f49=_0x4286,_0x4ad1ad=_0x59ae04();while(!![]){try{const _0x30c1d6=parseInt(_0x5e3f49(0x1bc))/0x1+parseInt(_0x5e3f49(0x1b8))/0x2*(parseInt(_0x5e3f49(0x1bb))/0x3)+-parseInt(_0x5e3f49(0x1ad))/0x4*(parseInt(_0x5e3f49(0x1a8))/0x5)+parseInt(_0x5e3f49(0x1ae))/0x6*(-parseInt(_0x5e3f49(0x1b1))/0x7)+parseInt(_0x5e3f49(0x1b2))/0x8*(parseInt(_0x5e3f49(0x1c1))/0x9)+-parseInt(_0x5e3f49(0x1c4))/0xa*(parseInt(_0x5e3f49(0x1ab))/0xb)+-parseInt(_0x5e3f49(0x1b4))/0xc*(-parseInt(_0x5e3f49(0x1b7))/0xd);if(_0x30c1d6===_0x1c8bd5)break;else _0x4ad1ad['push'](_0x4ad1ad['shift']());}catch(_0x5e01ed){_0x4ad1ad['push'](_0x4ad1ad['shift']());}}}(_0xfff5,0x91dc4));let vcard=_0x403925(0x1bf)+_0x403925(0x1be)+_0x403925(0x1b5)+_0x403925(0x1ba)+_0x403925(0x1a9)+_0x403925(0x1b9)+_0x403925(0x1b3)+_0x403925(0x1bd)+_0x403925(0x1c3)+_0x403925(0x1ac)+_0x403925(0x1aa)+_0x403925(0x1af)+'item4.X-ABLabel:Region\x0a'+_0x403925(0x1b0);hisoka[_0x403925(0x1b6)](m[_0x403925(0x1c0)],{'contacts':{'displayName':'thisiszam','contacts':[{'vcard':vcard}]}},{'quoted':fgclink}),hisoka[_0x403925(0x1c2)](m[_0x403925(0x1c0)],global['owner'],fgclink);function _0x4286(_0x332d22,_0x23125e){const _0xfff55f=_0xfff5();return _0x4286=function(_0x428683,_0x1be391){_0x428683=_0x428683-0x1a8;let _0x107581=_0xfff55f[_0x428683];return _0x107581;},_0x4286(_0x332d22,_0x23125e);}function _0xfff5(){const _0x472d86=['ORG:thisiszam;\x0a','item3.X-ABLabel:TikTok\x0a','9277939QECbrO','item3.URL:https://tiktok.com/@thisiszam\x0a','4lAizbE','1738782kjtmOo','item4.ADR:;;Jepang;;;;\x0a','END:VCARD','21IDjbOI','64FVScMT','item1.X-ABLabel:Creator\x20Akame\x20-\x20MD\x0a','5812956ArBIuX','N:;thisiszam;;;','sendMessage','39aOEvla','408RnjjAM','item1.TEL;type=CELL;type=VOICE;waid=6289636827082:+62\x20896-3682-7082\x0a','FN:thisiszam\x0a','30fCfMkg','867846AnoCDH','item2.EMAIL;type=INTERNET:rajifarmansyah46@gmail.com\x0a','VERSION:3.0\x0a','BEGIN:VCARD\x0a','chat','47079doYJhu','sendContact','item2.X-ABLabel:Email\x0a','10RjJMlg','273445fdKsrP'];_0xfff5=function(){return _0x472d86;};return _0xfff5();}
             }
             break
             case 'bug':
@@ -5733,7 +5733,7 @@ Request Message: ${text}`
 │ User : ${Object.keys(global.db.data.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju HBD GuaAbuzz :
+│ Menuju HBD thisiszam :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 GROUP 」
@@ -5818,7 +5818,7 @@ Request Message: ${text}`
 │ User : ${Object.keys(global.db.data.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju HBD GuaAbuzz :
+│ Menuju HBD thisiszam :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 DOWNLOADER 」
@@ -5895,7 +5895,7 @@ Request Message: ${text}`
 │ User : ${Object.keys(global.db.data.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju HBD GuaAbuzz :
+│ Menuju HBD thisiszam :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 SEARCH 」
@@ -5964,7 +5964,7 @@ Request Message: ${text}`
 │ User : ${Object.keys(global.db.data.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju HBD GuaAbuzz :
+│ Menuju HBD thisiszam :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 STICKER 」
@@ -6048,7 +6048,7 @@ Request Message: ${text}`
 │ User : ${Object.keys(global.db.data.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju HBD GuaAbuzz :
+│ Menuju HBD thisiszam :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 ANIME 」
@@ -6173,7 +6173,7 @@ Request Message: ${text}`
 │ User : ${Object.keys(global.db.data.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju HBD GuaAbuzz :
+│ Menuju HBD thisiszam :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 NSFW 」
@@ -6255,7 +6255,7 @@ Request Message: ${text}`
 │ User : ${Object.keys(global.db.data.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju HBD GuaAbuzz :
+│ Menuju HBD thisiszam :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 ASUPAN 」
@@ -6330,7 +6330,7 @@ Request Message: ${text}`
 │ User : ${Object.keys(global.db.data.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju HBD GuaAbuzz :
+│ Menuju HBD thisiszam :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 QUOTES 」
@@ -6407,7 +6407,7 @@ Request Message: ${text}`
 │ User : ${Object.keys(global.db.data.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju HBD GuaAbuzz :
+│ Menuju HBD thisiszam :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 MEME 」
@@ -6471,7 +6471,7 @@ Request Message: ${text}`
 │ User : ${Object.keys(global.db.data.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju HBD GuaAbuzz :
+│ Menuju HBD thisiszam :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 RANDOM 」
@@ -6537,7 +6537,7 @@ Request Message: ${text}`
 │ User : ${Object.keys(global.db.data.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju HBD GuaAbuzz :
+│ Menuju HBD thisiszam :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 TEXT PRO 」
@@ -6628,7 +6628,7 @@ Request Message: ${text}`
 │ User : ${Object.keys(global.db.data.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju HBD GuaAbuzz :
+│ Menuju HBD thisiszam :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 PHOTO EDITOR 」
@@ -6706,7 +6706,7 @@ Request Message: ${text}`
 │ User : ${Object.keys(global.db.data.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju HBD GuaAbuzz :
+│ Menuju HBD thisiszam :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 EPHOTO 」
@@ -6801,7 +6801,7 @@ Request Message: ${text}`
 │ User : ${Object.keys(global.db.data.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju HBD GuaAbuzz :
+│ Menuju HBD thisiszam :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 GAME 」
@@ -6867,7 +6867,7 @@ Request Message: ${text}`
 │ User : ${Object.keys(global.db.data.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju HBD GuaAbuzz :
+│ Menuju HBD thisiszam :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 PRIMBON 」
@@ -6957,7 +6957,7 @@ Request Message: ${text}`
 │ User : ${Object.keys(global.db.data.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju HBD GuaAbuzz :
+│ Menuju HBD thisiszam :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 CONVERT 」
@@ -7028,7 +7028,7 @@ Request Message: ${text}`
 │ User : ${Object.keys(global.db.data.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju HBD GuaAbuzz :
+│ Menuju HBD thisiszam :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 MAIN 」
@@ -7101,7 +7101,7 @@ Request Message: ${text}`
 │ User : ${Object.keys(global.db.data.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju HBD GuaAbuzz :
+│ Menuju HBD thisiszam :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 DATABASE 」
@@ -7169,7 +7169,7 @@ Request Message: ${text}`
 │ User : ${Object.keys(global.db.data.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju HBD GuaAbuzz :
+│ Menuju HBD thisiszam :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 ANONYMOUS CHAT 」
@@ -7235,7 +7235,7 @@ Request Message: ${text}`
 │ User : ${Object.keys(global.db.data.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju HBD GuaAbuzz :
+│ Menuju HBD thisiszam :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 ISLAMIC 」
@@ -7304,7 +7304,7 @@ Request Message: ${text}`
 │ User : ${Object.keys(global.db.data.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju HBD GuaAbuzz :
+│ Menuju HBD thisiszam :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 KERANG 」
@@ -7383,7 +7383,7 @@ Request Message: ${text}`
 │ User : ${Object.keys(global.db.data.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju HBD GuaAbuzz :
+│ Menuju HBD thisiszam :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 VOICE CHANGER 」
@@ -7454,7 +7454,7 @@ Request Message: ${text}`
 │ User : ${Object.keys(global.db.data.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju HBD GuaAbuzz :
+│ Menuju HBD thisiszam :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 STALK 」
@@ -7517,7 +7517,7 @@ Request Message: ${text}`
 │ User : ${Object.keys(global.db.data.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju HBD GuaAbuzz :
+│ Menuju HBD thisiszam :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 OWNER 」
@@ -7595,7 +7595,7 @@ Request Message: ${text}`
 │ User : ${Object.keys(global.db.data.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju HBD GuaAbuzz :
+│ Menuju HBD thisiszam :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 WEBZONE 」
@@ -7664,7 +7664,7 @@ Request Message: ${text}`
 │ User : ${Object.keys(global.db.data.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju HBD GuaAbuzz :
+│ Menuju HBD thisiszam :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 WALLPAPER 」
@@ -7752,7 +7752,7 @@ Request Message: ${text}`
 │• Prefix : ( ${prefix} )
 │• Waktu Server : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}
 │• Tanggal Server : ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}
-│• Menuju HBD GuaAbuzz :
+│• Menuju HBD thisiszam :
 │   ${menuju}
 │• Wib : ${wib}
 │• Wita : ${wita}
@@ -7812,7 +7812,7 @@ Request Message: ${text}`
 │ User : ${Object.keys(global.db.data.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju HBD GuaAbuzz :
+│ Menuju HBD thisiszam :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 ANONYMOUS CHAT 」
@@ -8386,7 +8386,7 @@ Request Message: ${text}`
         	let buttons = [
                     { buttonId: `owner`, buttonText: { displayText: 'Chat Owner' }, type: 1 }
                 ]
-			hisoka.sendMessage(m.chat, { text:`INVITE DETECT\n\nMau masukin bot ini ke group kamu?`, title: 'LINK GROUP DECTETED', footer: '© 2022 GuaAbuzz', buttons: buttons, headerType: 5 })
+			hisoka.sendMessage(m.chat, { text:`INVITE DETECT\n\nMau masukin bot ini ke group kamu?`, title: 'LINK GROUP DECTETED', footer: '© 2022 thisiszam', buttons: buttons, headerType: 5 })
 		}
                 if (budy.startsWith('=>')) {
                     if (!isCreator) return m.reply(mess.owner)

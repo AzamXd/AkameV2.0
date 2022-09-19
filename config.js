@@ -31,25 +31,25 @@ global.namaowner = 'thisiszam'
 
 //—————「 Setting Owner 」—————//
 //terserah mau ubah atau nggak
-global.owner = ['6281389268689']
-global.premium = ['6281389268689']
+global.owner = ['6281389368689']
+global.premium = ['6281389368689']
 
 //—————「 Setting Nomor Donasi 」—————//
 //ubah aja kalau ada yg gapunya kasih tanda -
-global.telkomsel = ['6281389268689']
+global.telkomsel = ['6281389368689']
 global.xl = ['-']
 global.indosat = ['-']
 global.tri = ['6289530417506']
 global.smartfren = ['-']
-global.gopay = ['6281389268689']
-global.dana = ['6281389268689']
-global.ovo = ['6281389268689']
+global.gopay = ['6281389368689']
+global.dana = ['6281389368689']
+global.ovo = ['6281389368689']
 global.saweria = ['-']
 
 //—————「 Set Kebutuhan Button 」—————//
 //ubah aja kalau ada yang gapunya gsh di hps anggap aja credits :)
 global.github = 'https://github.com/AzamXd'
-global.myweb = 'https://tiktok.com/@thisiszam'
+global.myweb = 'https://tiktok.com/@thisiszam.prst'
 
 //—————「 Set Wm 」—————//
 //terserah mau ubah atau nggak
